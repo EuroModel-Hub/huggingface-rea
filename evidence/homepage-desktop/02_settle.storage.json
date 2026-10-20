@@ -1,0 +1,47 @@
+{
+  "cookies": [
+    {
+      "name": "aws-waf-token",
+      "domain": ".huggingface.co",
+      "path": "/",
+      "secure": true,
+      "http_only": false,
+      "same_site": "Lax",
+      "value_state": "hashed",
+      "value_sha256": "f0cd1efb737ba529421cb8035205d3d21d20c50681592863faa10fda9a8e3ffc"
+    },
+    {
+      "name": "__stripe_mid",
+      "domain": ".huggingface.co",
+      "path": "/",
+      "secure": true,
+      "http_only": false,
+      "same_site": "Strict",
+      "value_state": "hashed",
+      "value_sha256": "628cdb4c9b91c9fb40f76ff6c93da8de2fab19d1f700b8ad81a19745ac0cf1ad"
+    },
+    {
+      "name": "__stripe_sid",
+      "domain": ".huggingface.co",
+      "path": "/",
+      "secure": true,
+      "http_only": false,
+      "same_site": "Strict",
+      "value_state": "hashed",
+      "value_sha256": "43dd758c3483cd51c9b5d98e3721710c1891f2264293fbda941a5beae19f2ccd"
+    }
+  ],
+  "local_storage": [
+    {
+      "name": "awswaf_token_refresh_timestamp",
+      "value_state": "hashed",
+      "value_sha256": "565d678d61e1e78ae6e45d0a24a92766ad7557b8685302620f7de3e2f078899d"
+    },
+    {
+      "name": "awswaf_session_storage",
+      "value_state": "hashed",
+      "value_sha256": "6063fccf3085b6ae70e86e21883859c1248ae832c7eb95716d8a83b9f67d6822"
+    }
+  ],
+  "session_storage": []
+}

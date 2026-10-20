@@ -1,0 +1,619 @@
+{
+  "capture_path": "/agent/huggingface-rea/evidence/inspect-web-page.data.json",
+  "capture_sha256": "e05c16f6ec78bb40107baf7effaef8c750ec175bbadcbe0a0c2c70e341dc002c",
+  "capture_kind": "page-inspection",
+  "source_evidence_id": "ev_f677397e2991bfa79e884738a2ab36b40862a7039fc45fb51fd43c3d3824ee4a",
+  "capture_completeness": {
+    "status": "policy_filtered",
+    "conditions": [
+      "attach_limited",
+      "policy_filtered"
+    ],
+    "policy_filtered_sections": [
+      "accessibility",
+      "console_text",
+      "json_body_shapes",
+      "metadata",
+      "resources",
+      "scripts",
+      "storage_keys",
+      "websocket_shapes"
+    ],
+    "attach_limited_sections": [
+      "console_events",
+      "metadata",
+      "network_requests",
+      "websocket_connections",
+      "websocket_frames"
+    ],
+    "truncated_sections": [],
+    "unavailable_sections": [],
+    "excluded": [
+      {
+        "section": "accessibility",
+        "reason": "not_approved",
+        "count": 928
+      },
+      {
+        "section": "console_text",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "json_body_shapes",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "metadata",
+        "reason": "disallowed_origin",
+        "count": 21
+      },
+      {
+        "section": "metadata",
+        "reason": "unsupported_url",
+        "count": 1
+      },
+      {
+        "section": "resources",
+        "reason": "disallowed_origin",
+        "count": 10
+      },
+      {
+        "section": "resources",
+        "reason": "unsupported_url",
+        "count": 1
+      },
+      {
+        "section": "scripts",
+        "reason": "disallowed_origin",
+        "count": 2
+      },
+      {
+        "section": "storage_keys",
+        "reason": "not_approved",
+        "count": null
+      },
+      {
+        "section": "websocket_shapes",
+        "reason": "not_approved",
+        "count": null
+      }
+    ],
+    "dropped_events": {
+      "scripts": 0,
+      "network_requests": 0,
+      "console_events": 0,
+      "websocket_connections": 0,
+      "websocket_frames": 0,
+      "webmcp_tools": 0,
+      "timeline_events": 0,
+      "total": 0
+    }
+  },
+  "output_directory": "/agent/huggingface-rea/evidence/exported-scripts",
+  "analysis_input": {
+    "input_path": "/agent/huggingface-rea/evidence/exported-scripts/files",
+    "format": "directory"
+  },
+  "scripts": [
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_0b69ed157eb3d53d03e088c4d2d3c5b1c5d772ae5fd0457be772b245fe2479f5",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/ClientErrorCatcher-9oQTefDG.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/ClientErrorCatcher-9oQTefDG.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "ebf2c4162cc72463b66cf8c0322204e5f4c0d4c3ae350387714126301bd7ac31",
+        "bytes": 2999,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_1af93970690efd8110b362f8a0f04781cfe34081adc6bc51b32d08a69adaa728",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": false,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/js/script.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/js/script.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "a1ccfceac9104a822f9a32f85df53c3c39ce0a916a67e3bb1e8ce698d24a8d54",
+        "bytes": 5974,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_3d3bb2debdbf787ecc9aeb5b2ac59181cd3e6aaf829d748f8f1192c8eeb37d17",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/ViewUtils-CzR5Z2rw.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/ViewUtils-CzR5Z2rw.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "3578fb4f1f5edeba0b35e6aff3d65da0e83b605bdeeefbb6c0329137d5ca3d88",
+        "bytes": 116503,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4555c7738fef7e3f7d91db878aac33ee107a8073984d7c9401a75c6c4117e5c9",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/rolldown-runtime-hePW80VL.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/rolldown-runtime-hePW80VL.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "580ad8c58061a4dde99bde0a56905e382f0568516ee2f5b84dbfb52085709021",
+        "bytes": 716,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_4b215c132d5065ac98d6e1a8b7abfd75d28446b8289070a42b6a491f9b23ab07",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/SystemThemeMonitor-Dt6zgFfj.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/SystemThemeMonitor-Dt6zgFfj.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "9958dc44e8d6a98ac14116a536c9dfe7bc269f3fe083579aa861d748884b0a06",
+        "bytes": 588,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_5cbbc93db55e2c8e5bdafa77c8aa242b116c9ef5ec7772ad6288b39d65e5b07d",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/index.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/index.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "6824c1604386aba903284a5c17a70c41648816a150f91e3ceabc33793085297a",
+        "bytes": 280562,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_5efac6de39ce11483dcdec554f42fdeea7e818a85e71c6db6afcc67423266851",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/index-client-CabHKwXS.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/index-client-CabHKwXS.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "68be7eab9af57e6361471409f3a4d846b6e7d0b8aa5ebb492950925f005ee947",
+        "bytes": 6228,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_639be75dee4013ea8303573709639d9f4c1f1d76bbe1961a2ad536554fc3e4e4",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/DeviceProvider-DHlUgcPX.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/DeviceProvider-DHlUgcPX.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "6dbc1e5ef7a636608478e6cbfe6ef095fc88d503b6c241347f6d13da0a663f8b",
+        "bytes": 558,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_696feef864ac90b3428be24914c7d0ab2773ac9ddc8f795486d0ee668ff53df7",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/IconCaret-CiRXXM-N.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/IconCaret-CiRXXM-N.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "e4251111f4af7477d307d4c8763f08a63f3e726df4a1bf64804753fab980c818",
+        "bytes": 543,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_6e868b275eebf7cc58e5f0853fc3713da510ae2b182b45d12166a2efedd63bb4",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/easing-Bpv0HHWv.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/easing-Bpv0HHWv.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "0e6b480dd1a243ff943524e0fcb82720c60813b6d5ea0755729828b65f4bc269",
+        "bytes": 175,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_7549ba9473786d52434730d290ea030f6b6732cda29d44386b86c9f226ba65a0",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/motion-DhANlOer.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/motion-DhANlOer.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "2a1752ca1198b492edacf25697527128615484b9337dcbef31e6b501226fa64f",
+        "bytes": 2403,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_79b6301476d6e81a7e379cb168019c3e4bf9c56131f8d800e8e9189d976d82da",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/legacy-Bz6oZbHy.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/legacy-Bz6oZbHy.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "c9f1580e5035f2de7b53d4485d31abea01cfe28a36d3b67566847bbe9bfd2e27",
+        "bytes": 52,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_811242f16d4b59512eac0f6e4832c7b22b3b26fded04e9d22e9fb7169cafc6bb",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/noBodyScroll-CgU0IkG5.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/noBodyScroll-CgU0IkG5.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "d6d8d0f221384fa1071d66f4ef8043c20db016850df3c824a0c9f44d896aef33",
+        "bytes": 410,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_899f0bd6d596094d146d4589f0ab71a1dc471dfec5d94724de6254f0b3ccec5b",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/disclose-version-xihTtKlq.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/disclose-version-xihTtKlq.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "0214edcff77242079f540507a53803aa22d857b6ad673e60e39748b6c7aa08c1",
+        "bytes": 65,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_9f0d117d880784e14264170ee33de7ee2e7858b84d38fee0761fc15c8623055f",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/ProductBanners-AZmIzLJr.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/ProductBanners-AZmIzLJr.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "03cb56aa88e5e7fdd5a46a150ffc7e419368313cba5c067a06955f0cda8ea108",
+        "bytes": 4923,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_a35c6482d6a52a8eaf3a98c2125850caa2f4eedc3acfd9ea73258781a54efe57",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/index-client-BtDI23kz.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/index-client-BtDI23kz.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "7b9336a9893fa35c7b7a19971b9a543602db962bffeb31315c6734fa6dc91512",
+        "bytes": 65244,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_be94c529d29ccd99db59925c8a3bda89493092d4c5fcae81cd60d9014a6882d6",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/events-DwBWi-Ht.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/events-DwBWi-Ht.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "ad7e0f14cc7fa88e5f615fa00fc8d92761f499306dbfbd82fad1e1c2bbba5d25",
+        "bytes": 35,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_c8c8e0631afd7bb9abad4dee55c0973a8c4b0e0b28c98af0541e482554e89cf2",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/IconSunFull-BBJFy9KC.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/IconSunFull-BBJFy9KC.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "079c45a6c7ef834f3a9fab5f5b12282b477aa01e29087669a186a4879893e6f0",
+        "bytes": 5745,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_d094ade0e6dfc01d8a561dec7acd3bd3fc359a56690a3e7f00769f0f127c8fa3",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/Dropdown-ByEhxA8T.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/Dropdown-ByEhxA8T.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "66a8f0a5dee8f0ee91fc3bc7e9c2ca0bf1aa2633e32e40d70717252d7bc73c07",
+        "bytes": 5592,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_db0a4ff28124757e6f9891f2d920577a3e3ccb9a0bd867f7d6f405ec6c60fe15",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/transition-BC1V4nxt.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/transition-BC1V4nxt.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "cbc079e5d3a6a8f3b577eee189c0d3fbe0f37ffc7f915be0fc6554dceeeec703",
+        "bytes": 1640,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_dd8b53e5e2a9e08cbfa02d221b9328e7832f515e469e5201652a54e328037b7e",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/IconProSparkle-ZWn-dXSa.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/IconProSparkle-ZWn-dXSa.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "23ffd68ea9bc97a0f256ba12daa8f678c20f42ead89686808bf4716c4bb84c67",
+        "bytes": 1806,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e0b1ff79dc338e376fd3cad891793c01da842f5c55163f6862eff5a6ddc5260e",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/index-client-DwBWi-Ht.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/index-client-DwBWi-Ht.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "ad7e0f14cc7fa88e5f615fa00fc8d92761f499306dbfbd82fad1e1c2bbba5d25",
+        "bytes": 35,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    },
+    {
+      "source": {
+        "kind": "page-script",
+        "script_key": "scr_e501f62c26bd7541588b6f9cf11d69f8ecebf7693f8dd5b622bc3db6cae05e6b",
+        "frame_id": "C9721E42672802205ADFB264EB9B16D5",
+        "is_module": true,
+        "language": "JavaScript",
+        "source_map_url": null
+      },
+      "url": "https://huggingface.co/front/build/kube-e3dd6d7/SSOBanner-BY7ePK5v.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/03a89053f2f115c3c0b82840f14b35a19e4f5fbf48bc08344223b0b8b6069e37/front/build/kube-e3dd6d7/SSOBanner-BY7ePK5v.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "e6b7449a021e8d8f613fd4d1c1b28dd89abcc2fe6660dc42972f75562fead16d",
+        "bytes": 1375,
+        "media_type": "text/javascript",
+        "redacted": null,
+        "representation": "debugger-source-utf8"
+      }
+    }
+  ],
+  "limitations": [
+    "Observation starts when REA attaches; prior network and console activity is unavailable.",
+    "Raw network headers, bodies, cookies, storage values, console objects, and WebSocket payloads are never retained; explicitly requested primitive console text is retained verbatim, while payload captures retain value-free shapes.",
+    "Source maps are reported only as declarative URLs and are not fetched.",
+    "URL-less scripts and console events without an allowed source URL are excluded because their origin cannot be proven.",
+    "CDP discovery omitted the target attachment state; attached is reported as unknown.",
+    "Only script bytes retained in this capture are exported. Sources are not refetched or executed, and a response or Debugger source does not prove execution.",
+    "Ordinary unambiguous URL paths preserve relative module layouts by origin, including case-distinct spellings. Query variants, exact path collisions, file/directory prefixes, inline sources, and unrepresentable paths are isolated. A case-distinct pair is isolated only when the destination filesystem cannot store both spellings; the record names that pair. Browser module relationships of isolated paths remain unknown.",
+    "Local JavaScript analysis does not implement browser import maps, root-relative URL resolution, remote URL loading, or browser runtime behavior. It may strip import queries and fragments; isolated variants are not canonical targets.",
+    "Source-map declarations are retained as metadata. No source maps or missing dependencies are fetched or reconstructed.",
+    "Scenario response bytes preserve the output of Playwright's Response.body() API; any source-body provenance caveat from the capture is retained in this manifest. Debugger sources are the exposed text encoded as UTF-8. Redacted bytes are exported exactly as retained, and may no longer parse as JavaScript."
+  ]
+}

@@ -1,0 +1,1 @@
+import{on as e}from"./index-client-BtDI23kz.js";e();

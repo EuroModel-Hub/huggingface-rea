@@ -1,0 +1,26 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/opt/google/chrome/google-chrome",
+    "headless": true
+  },
+  "start_url": { "url": "https://huggingface.co/docs", "query": [] },
+  "environment": {
+    "viewport": { "width": 1440, "height": 900, "device_scale_factor": 1 },
+    "locale": "en-US",
+    "timezone": "UTC",
+    "color_scheme": "light",
+    "reduced_motion": "reduce",
+    "service_workers": "allow"
+  },
+  "actions": [
+    { "step_id": "goto_docs", "action": "goto", "destination": { "url": "https://huggingface.co/docs", "query": [] }, "wait_until": "load" },
+    { "step_id": "settle", "action": "wait_for_timeout", "duration_ms": 5000 }
+  ],
+  "capture": {
+    "after_each_step": [],
+    "at_end": ["screenshot", "dom", "accessibility", "url", "history", "storage"],
+    "events": ["console", "page-errors", "network", "websockets", "frames", "workers", "popups", "downloads"],
+    "network": { "request_body": false, "response_body": false, "header_values": true }
+  }
+}

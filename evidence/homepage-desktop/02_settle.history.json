@@ -1,0 +1,20 @@
+{
+  "length": 2,
+  "current_url": {
+    "url": "https://huggingface.co/",
+    "origin": "https://huggingface.co",
+    "query_parameter_names": [],
+    "redacted": false
+  },
+  "navigation_entries": [
+    {
+      "type": "navigate",
+      "name": {
+        "url": "https://huggingface.co/",
+        "origin": "https://huggingface.co",
+        "query_parameter_names": [],
+        "redacted": false
+      }
+    }
+  ]
+}

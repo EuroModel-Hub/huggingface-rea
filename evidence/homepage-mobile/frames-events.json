@@ -1,0 +1,64 @@
+[
+  {
+    "sequence": 4,
+    "step_index": 0,
+    "kind": "frame-navigated",
+    "url": {
+      "url": "https://huggingface.co/",
+      "origin": "https://huggingface.co",
+      "query_parameter_names": [],
+      "redacted": false
+    },
+    "name": null
+  },
+  {
+    "sequence": 282,
+    "step_index": 1,
+    "kind": "frame-navigated",
+    "url": {
+      "url": "https://huggingface.co/",
+      "origin": "https://huggingface.co",
+      "query_parameter_names": [],
+      "redacted": false
+    },
+    "name": null
+  },
+  {
+    "sequence": 585,
+    "step_index": 2,
+    "kind": "frame-attached",
+    "url": null,
+    "name": null
+  },
+  {
+    "sequence": 589,
+    "step_index": 2,
+    "kind": "frame-navigated",
+    "url": {
+      "url": "https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2Fhuggingface.co%2F&title=Hugging%20Face%20%E2%80%93%20The%20AI%20community%20building%20the%20future.&referrer=&muid=NA&sid=NA&version=6&preview=false&__shared_params__[version]=dahlia",
+      "origin": "https://js.stripe.com",
+      "query_parameter_names": [],
+      "redacted": false
+    },
+    "name": "__privateStripeMetricsController3610"
+  },
+  {
+    "sequence": 596,
+    "step_index": 2,
+    "kind": "frame-attached",
+    "url": null,
+    "name": null
+  },
+  {
+    "sequence": 601,
+    "step_index": 2,
+    "kind": "frame-navigated",
+    "url": {
+      "url": "https://m.stripe.network/inner.html#url=https%3A%2F%2Fhuggingface.co%2F&title=Hugging%20Face%20%E2%80%93%20The%20AI%20community%20building%20the%20future.&referrer=&muid=NA&sid=NA&version=6&preview=false&__shared_params__[version]=dahlia",
+      "origin": "https://m.stripe.network",
+      "query_parameter_names": [],
+      "redacted": false
+    },
+    "name": null
+  }
+]

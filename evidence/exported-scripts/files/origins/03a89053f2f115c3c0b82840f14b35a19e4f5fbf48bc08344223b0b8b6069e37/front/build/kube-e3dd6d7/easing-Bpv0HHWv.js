@@ -1,0 +1,1 @@
+function e(e){return e}function t(e){return e<.5?4*e*e*e:.5*(2*e-2)**3+1}function n(e){let t=e-1;return t*t*t+1}function r(e){return(e-1)**3*(1-e)+1}export{r as i,n,e as r,t};
